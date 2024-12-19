@@ -66,7 +66,9 @@ The analysis includes several statistical analysis and visualization techniques 
 
 **Fitting of classification models**
 
-Models such as logistic regression, decision trees and random forests are fit and the evaluation of the models done to choose the best model.
+Models such as logistic regression, decision trees and random forests are fit
+
+Model Comparison: The performance of the models is compared based on evaluation metrics and ROC curves to identify the best-performing model.
 
 ## Visualizations
 The following visualizations are included in this analysis:
@@ -95,6 +97,14 @@ Confusion matrix of random forest
 
 <img src="./images/confusion_rf.png" style="width:500px;height:300px;">
 
+## Requirements
+Python 3.x Required libraries: pandas, numpy, scikit-learn, matplotlib, seaborn, imbalanced-learn
+
+## Usage
+- Clone the repository: (https://github.com/MosesMusyoki/Diabetes_Analysis_phase3) Install the required libraries: pip install pandas numpy scikit-learn matplotlib seaborn imbalanced-learn. 
+
+- Run the data preprocessing steps to handle missing values, duplicates, and outliers. Perform exploratory data analysis to gain insights into the dataset. Build and train different models (Logistic Regression,decision tree and Random Forest) using appropriate evaluation metrics. Compare the performance of the models and select the best-performing model.
+
 ## Conclusions
 
 - The analysis employed a **random forest classifier** as the best model to predict diabetes based on various health indicators and lifestyle factors. The model was trained and evaluated on a dataset of 100,000 records, and hyperparameter tuning was performed to optimize the model's performance.
@@ -107,7 +117,7 @@ Confusion matrix of random forest
 
 - Despite the model achieving a good accuracy of 92%, more data should be collected for patients with diabetes.
 
-- The model can be used to help detect early signs of the disease making it easiear to take measures early on.
+- Addition of more features which are used to create the models. More features can help improve recall, especially for cases where the patient has diabetes.
 
 ## Suggestions for future improvement
 
