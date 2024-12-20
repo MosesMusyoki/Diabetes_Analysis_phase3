@@ -8,14 +8,14 @@ Diabetes is a disease that occurs when your blood glucose, also called blood sug
 
 The head of medical Board has tasked me to create a predictive model that can predict whether a patient has diabetes or not.
 
-To answer the question, I will build a classifier to predict whether patients have cancer with the given dataset.This will be based on several diagnostic measurements, including glucose level, blood pressure, smoking history, gender, BMI, and age. I will train models such as logistic regression, K Nearest Neighbours, decision trees and ensemble methods such as random forests and evaluate which model performs better.
+To answer the question, I will build a classifier to predict whether patients have cancer with the given dataset.This will be based on several diagnostic measurements, including glucose level, blood pressure, smoking history, gender, BMI, and age. I will train models such as logistic regression, decision trees and ensemble methods such as random forests and evaluate which model performs better.
 
 ## Objectives
 My top objectives for modelling will be:
 
 1. Determine important factors that affect diabetes.
 2. Determine the best model to predict diabetes.
-3. Create a model that predicts diabetes with an accuracy of 96% or above.
+3. Create a model that predicts diabetes with an accuracy of 90% or above.
 
 ### Data sources
 The data for this modelling was obtained from kaggle.
